@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "name": "Oui",
+    "image": "view/Content/snow-image/snowboard1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Non",
+    "image": "view/Content/snow-image/snowboard1.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Ui",
+    "image": "view/Content/snow-image/snowboard1.jpg"
+  }
+]
