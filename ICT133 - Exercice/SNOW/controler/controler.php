@@ -16,11 +16,10 @@ function login($log)
 
     if (checkLogin($log))
     {
-        require "view/resultLogin.php";
+        require "view/login.php";
     }
     else {
         require "view/login.php";
-        require "view/resultLogin.php";
     }
 }
 
@@ -38,4 +37,12 @@ function register()
     require "view/register.php";
 }
 
+function product()
+{
+    $_GET['action'] = "product";
+
+    $produit_content = dataBaseShop();
+    $_GET['prContent'] =$produit_content;
+    require "View/product.php";
+}
 
