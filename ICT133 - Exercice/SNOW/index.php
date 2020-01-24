@@ -17,6 +17,9 @@ require "controler/controler.php";
             case "register" :
                 register();
                 break;
+            case "product" :
+                product();
+                break;
             default :
                 home();
         }
