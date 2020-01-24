@@ -84,7 +84,7 @@
                                 <li <?php if (($_GET['action'] == 'produit') || (!isset($_GET['action']))): ?>
                                     class="active"
                                 <?php endif ?>
-                                ><a href="index.php?action=controler">Produit</a></li>
+                                ><a href="index.php?action=product">Produit</a></li>
 
 
                                 <li<?php if (($_GET['action'] == 'contact') || (!isset($_GET['action']))): ?>
